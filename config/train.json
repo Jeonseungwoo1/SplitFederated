@@ -1,0 +1,19 @@
+{
+    "distributed": {
+        "random_seed": 1234
+    },
+    "optimizer": {
+        "lr": 0.0001
+    },
+    "data":{
+        "train_data": "./data/HAM10000_metadata.csv",
+        "train_batch_size": 256,
+        "test_batch_size": 256,
+        "test_size": 0.2
+
+    },
+    "wandb": {
+        "logging": false,
+        "run_name": "train-SFL"
+    }
+}
